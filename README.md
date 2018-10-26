@@ -1,27 +1,15 @@
-# Application
+# Pássaro Urbano
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+This project was generated with Angular CLI version 6.0.3;
+Nodejs version 10.1.0;
 
-## Development server
+## Pré-requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Certifique-se de ter instalado em sua máquina o `node.js`.
+Depois instale o Angular CLI pelo commando `npm install -g @angular/cli`.
+Para verificar se o node está instalado execute o comando `node -v` ou `node --version`. 
+Para verificar se o Angular CLI está instalado execute o comando `ng --version`.
 
-## Code scaffolding
+## ATENÇÃO!!!
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+A aplicação está com uma série de dependências ignoradas pelo arquivo `.gitignore`, antes de tentar executar o comando `ng serve` para executar a aplicação, certifique-se de executar primeiramente o comando `npm install` no diretório baixado, esse procedimento irá instalar todos os pacotes essenciais contidos no arquivo `package.json`, esse procedimento demora um pouco, tenha paciência. Após baixado todos os pacotes execute o comando `json-server --watch banco-de-dados.json` e logo após compilar execute `ng serve` e abra o navegador em `http://localhost:4200/` para abrir a aplicação.
